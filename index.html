@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<body class="blue white-text">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Weather App</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://use.fontawesome.com/a4c675e456.js"></script>
+    </head>
+    <div class="row content purple lighten-1">
+        <div id="mainContent" class="col s12 m12 top">
+            <div class="locationName"></div>
+            <div class="weatherDescription"></div>
+            <div class="temp"></div>
+            <div class="pressure"></div>
+            <div class="humidity"></div>
+            <img class="icon" src=""/>
+            <div class="fa fa-spinner fa-pulse fa-5x fa-fw"></div>
+        </div>
+    </div>
+    
+    <button class="refresh waves-effect waves-light btn" onclick="getLocation()">Refresh</button>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

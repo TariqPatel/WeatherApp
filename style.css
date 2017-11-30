@@ -1,0 +1,41 @@
+body {
+    z-index: 999;
+    font-size: 25px;
+}
+
+.fa {
+    display: block;
+    position: absolute;
+    top: 205px;
+    left: 117px;
+}
+
+.content {
+    width: 400px;
+    height: 600px;
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+    max-width:100%;
+    max-height:100%;
+    overflow:auto;
+    text-align: center;
+}
+
+.top
+{
+    margin-top: 170px;
+}
+
+.refresh
+{
+    width: 150px;
+    height: 150px;
+}
+
+img {
+    width: 100px;
+}
